@@ -20,44 +20,45 @@
         <nav class="row justify-content-center">
             <input type="checkbox" id="menu-checkbox">
             <ul class="col-12 col-md menuLeft ">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Who we are?</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Our team</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#amazing">Who we are?</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Our team</a></li>
             </ul>
             <div class="col-12 flex-first col-md-2 flex-md-unordered logo">
                 <p class="oxxo">Oxx<span>o</span></p><p>Responsive theme</p>
             </div>
             <ul class="col-12 col-md nav-pills menuRight">
-                <li><a data-toggle="dropdown" data-submenu href="">Services</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="">Submenu title 1</a></li>
-                        <li><a href="">Some title here</a></li>
-                        <li><a href="">About our company</a></li>
-                        <li><a href="">Lorem ipsum title</a></li>
-                        <li class="dropdown dropdown-submenu">
-                            <a tabindex="0" data-toggle="dropdown" data-submenu href="">Just ipsum title</a>
-                            <ul class="dropdown-menu-right">
-                                <li><a href="">Submenu title 1 </a></li>
-                                <li><a href="">Some title here</a></li>
-                                <li><a href="">About our company</a></li>
-                            </ul>
-                        </li>
-                        <li><a tabindex="0" href="">Dolor sit amet title</a></li>
-                        <li><a tabindex="0" href="">Sit title with amet</a></li>
-                        <li><a tabindex="0" href="">Ipsum with lorem</a></li>
-                    </ul>
+                <li><a href="#services">Services</a>
+                <!--<li><a data-toggle="dropdown" data-submenu href="#services">Services</a>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><a href="">Submenu title 1</a></li>-->
+                        <!--<li><a href="">Some title here</a></li>-->
+                        <!--<li><a href="">About our company</a></li>-->
+                        <!--<li><a href="">Lorem ipsum title</a></li>-->
+                        <!--<li class="dropdown dropdown-submenu">-->
+                            <!--<a tabindex="0" data-toggle="dropdown" data-submenu href="">Just ipsum title</a>-->
+                            <!--<ul class="dropdown-menu-right">-->
+                                <!--<li><a href="">Submenu title 1 </a></li>-->
+                                <!--<li><a href="">Some title here</a></li>-->
+                                <!--<li><a href="">About our company</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
+                        <!--<li><a tabindex="0" href="">Dolor sit amet title</a></li>-->
+                        <!--<li><a tabindex="0" href="">Sit title with amet</a></li>-->
+                        <!--<li><a tabindex="0" href="">Ipsum with lorem</a></li>-->
+                    <!--</ul>-->
                 </li>
-                <li><a href="">Clients</a></li>
-                <li><a href="">How we do?</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#responsive">How we do?</a></li>
+                <li><a href="#contacts">Contact us</a></li>
             </ul>
         </nav>
 </div>
 <div class="container-fluid mainSlider">
     <img class="img-fluid" src="img/bg1Slider.jpg" alt="">
-    <div class="row align-items-center align-self-center firstSlider ">
-        <div class="col-1 align-self-center nav-button-lr"><a href="#"><img class="left" src="img/Left-Navigation-Button.png" alt=""></a></div>
+    <div class="row align-self-center firstSlider ">
+        <div class="col-1 nav-button-lr"><a href="#"><img class="left" src="img/Left-Navigation-Button.png" alt=""></a></div>
         <div class="col justify-content-center align-self-start">
             <div class="sliderContents">
                 <div class="content1 active">
@@ -86,6 +87,7 @@
 <!--1-st Slider End-->
 <!--2-nd Slider. ABOUT US -->
 <div class="container-fluid slider-2">
+    <a name="about"></a>
     <div class="sectionTitle">
         <h2>About us</h2>
         <hr>
@@ -107,13 +109,14 @@
                 <p><i>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</i>
                 </p>
             </div>
-            <a href="#" class="btn">Meet Us Now</a>
-            <a href="#" class="btn">Contact Us</a>
+            <a href="#team" class="btn">Meet Us Now</a>
+            <a href="#contacts" class="btn">Contact Us</a>
         </div>
     </div>
 </div>
 <!--3-nd Slider. WE ARE AMAZING. YES WE ARE. -->
 <div class="container-fluid slider-3">
+    <a name="amazing"></a>
     <div class="sectionTitle">
         <h2>WE ARE AMAZING. YES WE ARE.</h2>
         <hr>
@@ -166,6 +169,7 @@
 </div>
 <!--4-nd Slider. WE ARE A TEAM. -->
 <div class="container-fluid slider-4">
+    <a name="team"></a>
     <div class="sectionTitle">
         <h2>WE ARE A TEAM.</h2>
         <hr>
@@ -225,6 +229,7 @@
 </div>
 <!--5-nd Slider. SEE OUR WORK. -->
 <div class="container-fluid slider-5">
+    <a name="portfolio"></a>
     <div class="sectionTitle">
         <h2>SEE OUR WORK.</h2>
         <hr>
@@ -340,6 +345,7 @@
 </div>
 <!--6-nd Slider. BUY OXXO NOW! -->
 <div class="container-fluid slider-6">
+    <a name="services"></a>
     <div class="sectionTitle">
         <h2>BUY OXXO NOW!</h2>
         <hr>
@@ -347,13 +353,14 @@
     </div>
     <div class="row justify-content-center">
         <div>
-            <a href="#" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>BUY NOW</a>
-            <a href="#" class="btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact Us</a>
+            <a href="#services" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>BUY NOW</a>
+            <a href="#contacts" class="btn"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact Us</a>
         </div>
     </div>
 </div>
 <!--7-nd Slider. WHAT OUR CLIENTS SAY? -->
 <div class="container-fluid slider-7">
+    <a name="clients"></a>
     <div class="sectionTitle">
         <h2>WHAT OUR CLIENTS SAY?</h2>
         <hr>
@@ -371,62 +378,64 @@
     </div>
 </div>
 <div class="container-fluid clientLogos">
-    <div class="row">
-        <div class="col-1 align-self-start"><a href="#" class="leftBtn"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
-        <figure class="col">
-            <img src="img/grahpicriver-dark1.png" alt="Box of wine">
-            <figcaption>
-                <h4>Graphicriver Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.graphicriver.net</span></a></p>
-            </figcaption>
-        </figure>
-        <figure class="col">
-            <img src="img/videohive-dark.png" alt="Box of wine">
-            <figcaption>
-                <h4>Videohive Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.videohive.net</span></a></p>
-            </figcaption>
-        </figure>
-        <figure class="col hidden-xs-down">
-            <img src="img/themeforest-dark.png" alt="Box of wine">
-            <figcaption>
-                <h4>Themeforest Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.graphicriver.net</span></a></p>
-            </figcaption>
-        </figure>
-        <figure class="col hidden-sm-down">
-            <img src="img/photodune-dark.png" alt="Box of wine">
-            <figcaption>
-                <h4>Photodune Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.themeforest.net</span></a></p>
-            </figcaption>
-        </figure>
-        <figure class="col hidden-sm-down">
-            <img src="img/audiojungle-light.png" alt="Box of wine">
-            <figcaption>
-                <h4>Audiojungle Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.audiojungle.net</span></a></p>
-            </figcaption>
-        </figure>
-        <figure class="col hidden-md-down">
-            <img src="img/codecanyon-dark.png" alt="Box of wine">
-            <figcaption>
-                <h4>Codecanyon Company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                <p><a href="#"><span>www.codecanyon.net</span></a></p>
-            </figcaption>
-        </figure>
-        <div class="col-1 align-self-startS"><a href="#" class="rightBtn"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-    </div>
+    <div class="row carousel">
+        <div class="col-1 align-self-start carousel-button-left"><a href="#" class="leftBtn"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
+        <div class="col row carousel-items">
+            <figure class="col carousel-block">
+                <img src="img/grahpicriver-dark1.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Graphicriver Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.graphicriver.net</span></a></p>
+                </figcaption>
+            </figure>
+            <figure class="col carousel-block">
+                <img src="img/videohive-dark.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Videohive Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.videohive.net</span></a></p>
+                </figcaption>
+            </figure>
+            <figure class="col carousel-block">
+                <img src="img/themeforest-dark.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Themeforest Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.graphicriver.net</span></a></p>
+                </figcaption>
+            </figure>
+            <figure class="col carousel-block">
+                <img src="img/photodune-dark.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Photodune Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.themeforest.net</span></a></p>
+                </figcaption>
+            </figure>
+            <figure class="col hidden-sm-down carousel-block">
+                <img src="img/audiojungle-light.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Audiojungle Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.audiojungle.net</span></a></p>
+                </figcaption>
+            </figure>
+            <figure class="col carousel-block">
+                <img src="img/codecanyon-dark.png" alt="Box of wine">
+                <figcaption>
+                    <h4>Codecanyon Company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <p><a href="#"><span>www.codecanyon.net</span></a></p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-1 align-self-start carousel-button-right"><a href="" class="rightBtn"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
     </div>
 </div>
 <!--8-nd Slider. RESPONSIVE. POWERFUL. -->
 <div class="container-fluid slider-2 slider-8">
+    <a name="responsive"></a>
     <div class="sectionTitle">
         <h2>RESPONSIVE. POWERFUL.</h2>
         <hr>
@@ -440,7 +449,7 @@
         </div>
         <div class="col-12 col-md-6">
             <div class="row">
-                <div class="col-2">
+                <div class="col-3 col-md-2">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                 </div>
                 <div class="col">
@@ -450,7 +459,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2">
+                <div class="col-3  col-md-2">
                     <i class="fa fa-magic" aria-hidden="true"></i>
                 </div>
                 <div class="col">
@@ -460,7 +469,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2">
+                <div class="col-3  col-md-2">
                     <i class="fa fa-bolt" aria-hidden="true"></i>
                 </div>
                 <div class="col">
@@ -474,6 +483,7 @@
 </div>
 <!--Footer -->
 <div class="container-fluid footer">
+    <a name="contacts"></a>
     <div class="row justify-content-center content">
         <div class="col-12 col-sm-6 col-lg-3 contactInfo" >
             <p class="footerSection"><i class="fa fa-map-marker" aria-hidden="true"></i>Contact Info</p>
@@ -559,29 +569,30 @@
 <!--Bottom -->
 <div class="container-fluid bottom">
     <div class="row justify-content-around align-items-center">
-        <div class="col-3 col-md-1 logo">
+        <div class="col-12 col-md-1 logo">
             <p class="oxxo">Oxx<span>o</span></p><p>Responsive theme</p>
 
         </div>
-        <div class="col-9 col-md-4">
+        <div class="col-12 col-md-4 rights">
             <p>2014 ® All Rights Reserved - OXXO Responsive Theme </p>
         </div>
         <div class="col-12 col-md-4 bottomNav">
             <ul>
-                <li><a href="#">Buy This Theme</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Who we are?</a></li>
+                <li><a href="#services">Buy This Theme</a></li>
+                <li><a href="#contacts">Contact Us</a></li>
+                <li><a href="#responsive">FAQ</a></li>
+                <li><a href="#team">Who we are?</a></li>
             </ul>
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
-<!--<script src="js/jquery.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+<!--<script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>-->
+<script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <!--<script src="js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
-<script src="js/bootstrap-submenu.js" ></script>
+<!--<script src="js/bootstrap-submenu.js" ></script>-->
+<!-- Initialize Bootstrap functionality -->
 <script type="text/javascript" src="js/main.js">
 </script>
 </body>
